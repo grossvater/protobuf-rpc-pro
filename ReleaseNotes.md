@@ -1,5 +1,11 @@
 What changes are made from release to release. Check SVN history for more details.
 
+# 3.3.1 #
+
+Completed move from google code to GitHub.
+
+Upgrade to Netty 4.0.27.Final
+
 # 3.3 #
 
 [Issue 34](https://code.google.com/p/protobuf-rpc-pro/issues/detail?id=34): upgrade to protobuf-java 2.6. Since the protoc 2.6 introduces new java stubs and requires an upgrade to protobuf-java 2.6, i've decided to call this a minor release upgrade, rather than a micro-release upgrade.
