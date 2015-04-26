@@ -2,7 +2,8 @@
 
 The protobuf-rpc-pro libraries primary function is to enable fully duplex RPC calls multiplexed over a single TCP/IP socket connection. Due to this duplex nature, the component architecture is almost symetric on client and server sides. The picture below shows the libraries internal architecture.
 
-![http://protobuf-rpc-pro.googlecode.com/svn/trunk/protobuf-rpc-pro-duplex/doc/protobuf-rpc-pro.png](http://protobuf-rpc-pro.googlecode.com/svn/trunk/protobuf-rpc-pro-duplex/doc/protobuf-rpc-pro.png)
+![Architecture Diagram](https://raw.githubusercontent.com/pjklauser/protobuf-rpc-pro/master/protobuf-rpc-pro-duplex/doc/protobuf-rpc-pro.png)
+
 
   * DuplexTcpClient/ServerBootstraps - These are the factories for client and server connections.
     * PeerInfo -  The identity of the client and server respectively, provided by hostname and port which is bound.
